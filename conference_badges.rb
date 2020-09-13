@@ -21,3 +21,4 @@ end
 
 assign_rooms(attendees).each{|assignment| puts assignment}
 end
+end
