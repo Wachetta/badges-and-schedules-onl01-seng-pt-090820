@@ -17,6 +17,7 @@ def assign_rooms(attendees)
 
 def printer(attendees)
 badges = batch_badge_creator(attendees)
+attendees.eac{|x| puts badges}
 rooms = assign_rooms(attendees)
 puts badges
 puts rooms
