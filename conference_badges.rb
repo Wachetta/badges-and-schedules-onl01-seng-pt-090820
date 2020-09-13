@@ -16,6 +16,8 @@ def assign_rooms(attendees)
   end
 
   def printer(attendees)
-  batch_badge_creator(attendees).each{|badges| puts badges}
+  batch_badge_creator(attendees).each{|badges| puts badges} # this really confused me. But my understanding is
+  #That badges is a place holder, and it is taking every thing in the array and doing something to it.
+  #here I am asking it to print everything in the array.
   assign_rooms(attendees).each{|room| puts room}
 end
