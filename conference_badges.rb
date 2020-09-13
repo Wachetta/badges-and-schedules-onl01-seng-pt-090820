@@ -19,7 +19,5 @@ def assign_rooms(attendees)
   batch_badge_creator(attendees).each{|badges| puts badges}
   end
 
-  assign_rooms(attendees).each do |room|
-    puts room
-  end
+  assign_rooms(attendees).each{|room| puts room}
 end
